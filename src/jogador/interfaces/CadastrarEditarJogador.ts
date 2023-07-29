@@ -1,5 +1,4 @@
-export interface Jogador {
-    id: number;
+export interface CadastrarEditarJogador {
     nome: string;
     sobrenome: string;
     numeroCamisa: number;
