@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "ee039efe-dde0-4bde-8f06-4fe6fbcfde90",
+		"name": "API Flamengo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11387013"
+	},
+	"item": [
+		{
+			"name": "Cadastrar Jogador",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Bruno\",\r\n    \"sobrenome\": \"Henrique\",\r\n    \"numeroCamisa\": 27\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/jogador",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"jogador"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Jogadores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/jogador",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"jogador"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar Jogador",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Gabriel\",\r\n    \"sobrenome\": \"Barbosa\",\r\n    \"numeroCamisa\": 9\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/jogador/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"jogador",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excluir Jogador",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/jogador/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"jogador",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
