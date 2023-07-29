@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="src/asstes/img/escudo-flamengo.png" width="200" alt="Nest Logo" /></a>
+  <img src="src/asstes/img/escudo-flamengo.png" width="200" alt="Escudo Flamengo" />
 </p>
 
 ## Resumo
