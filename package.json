@@ -1,8 +1,8 @@
 {
   "name": "api-flamengo",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Desafio de programação: Fazer um CRUD dos jogadores do Flamengo",
+  "author": "Emanuell Santos de Jesus",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
